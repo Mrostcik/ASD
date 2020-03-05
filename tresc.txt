@@ -1,0 +1,15 @@
+Dwa typy poleceń:
+• ? i j - polecenie typu ? - oblicz, na ile sposobów można wybrać godny zaufania patrol spośród żołnierzy
+pomiędzy i-tym a j-tym włącznie. Jako że liczba sposobów może być bardzo duża, Cezarowi wystarczy
+tylko wynik modulo 10^9 + 7 -> godny zaufania = nie ma dwóch G obok siebie
+• O i j - polecenie typu O - odwróć kolejność żołnierzy między i-tym, a j-tym włącznie.
+
+Wejście:
+W pierwszym wierszu wejścia podane są dwie liczby n i m (1 ≤ n, m ≤ 100 000) określające odpowiednio
+liczebność szeregu i liczbę zapytań Cezara. Następny wiersz zawiera opis początkowego stanu szeregu, czyli
+n znaków (’R’ lub ’G’) Kolejne m wierszy jest w formie t i j (t ∈ {?, O}, i ≤ j, 1 ≤ i, j ≤ n), każdy z nich
+definiuje pojedyncze polecenie Cezara.
+
+Wyjście:
+Na każde polecenie typu ? odpowiedz jedną liczbą w wierszu oznaczającą liczbę sposobów na wybranie godnego
+zaufania patrolu z żołnierzy z zadanego przedziału. Jako że odpowiedź może być duża, wynik wypisz modulo 10^9 + 7.
